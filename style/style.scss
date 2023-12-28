@@ -1,0 +1,98 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(37, 217, 230);
+    color: #000; /* Default text color */
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.left-logo {
+    font-size: 30px;
+    color: #FFAACF;
+}
+
+/* Main Styles */
+main {
+    padding: 20px;
+}
+
+/* Main Content Styles */
+.main-content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top-side {
+    color: #FFE7C1 !important;
+}
+
+.top-side,
+.bottom-side {
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.bottom-side {
+    color: rgb(94, 90, 90) !important;
+}
+
+.logo-side1 {
+    font-size: 50px;
+    color: rgb(240, 17, 84);
+}
+
+/* Image Section Styles */
+.image-section .container {
+    text-align: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Description Styles */
+.description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.left-side {
+    font-size: 18px;
+    color: #7330FA;
+}
+
+
+/* Your existing CSS styles here */
+
+/* Heart animation */
+@keyframes heartAnimation {
+    0% { transform: translateY(0) scale(1); opacity: 1; }
+    50% { transform: translateY(-100px) scale(1.3); opacity: 0.7; }
+    100% { transform: translateY(-200px) scale(1); opacity: 0; }
+}
+
+/* Heart emoji styles */
+.heart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    pointer-events: none;
+    animation: heartAnimation 1s ease-out;
+}
