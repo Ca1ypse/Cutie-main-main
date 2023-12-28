@@ -1,7 +1,7 @@
 const pookieImage = document.getElementById('pookieImage');
 
 function generateHearts() {
-    const hearts = ['❤️', '💖', '💕', '💓', '💗'];
+    const hearts = ['💛', '🖤'];
     const heartCount = 20;
 
     for (let i = 0; i < heartCount; i++) {
